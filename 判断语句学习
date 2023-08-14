@@ -1,0 +1,20 @@
+#比较运算符：==，！=，><
+#判断语句 四格缩进
+age=int(input("请输入你的年龄:\n"))
+if age >= 18:
+    print ("我成年了")
+elif age>13:
+    print("等死吧")
+else:
+    print("去死吧")
+#1
+num=5
+print ("你总共有三次机会哦")
+if int(input("第一次机会：")) == num:
+    print("恭喜第一次就猜对了")
+elif int(input("第二次机会：")) == num:
+    print("猜对啦")
+elif int(input("这是第三次：")) == num:
+    print ("终于猜对啦")
+else:
+    print("可惜全错了")
